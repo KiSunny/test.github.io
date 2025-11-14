@@ -5,6 +5,8 @@ const urlsToCache = [
     '/style.css',
     '/script.js',
     '/manifest.json',
+    '/images/icon-192.png', 
+    '/images/icon-512.png',
     // 교재 페이지 등 필수적인 모든 파일 경로를 여기에 추가합니다.
 ];
 
