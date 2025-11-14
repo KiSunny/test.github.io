@@ -1,0 +1,67 @@
+/*
+ * style.css
+ * 교회 양육 교재 웹사이트 기본 스타일
+ */
+
+/* 1. 기본 설정 (Reset 및 글꼴) */
+body {
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* 연한 배경색 */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* PWA를 위한 화면 크기 제한 및 중앙 정렬 */
+/* 내용이 너무 넓어지는 것을 방지하여 모바일 가독성 향상 */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* 2. 헤더 스타일 */
+header {
+    background-color: #007bff; /* 청색 계열 (PWA theme color와 유사하게) */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* PWA 느낌을 위해 상단에 고정된 바처럼 보이게 합니다. */
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* 3. 교재 목록 섹션 스타일 */
+.lessons h2 {
+    color: #007bff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* 교재 항목 스타일 */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px; /* 모서리 둥글게 */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* 은은한 그림자 */
+}
+
+/* 4. 푸터 스타일 */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    color: #777;
+    font-size: 0.8em;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+}
