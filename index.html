@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교회 양육 교재</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <header><h1>새 신자 양육 과정</h1></header>
+    <main>
+        <section id="lessons">
+            <h2>1. 구원의 확신</h2>
+            <p>오늘의 말씀: 요한복음 3:16</p>
+        </section>
+        <section id="lessons">
+            <h2>2. 신앙 생활의 기초</h2>
+            <p>오늘의 말씀: 에베소서 2:8</p>
+        </section>
+        </main>
+    <footer><p>&copy; 2024 우리 교회</p></footer>
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+</body>
+</html>
